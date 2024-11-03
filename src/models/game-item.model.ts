@@ -23,7 +23,7 @@ export class GameItem extends Entity {
 
   @belongsTo(() => Item)
   itemId: string;
-
+  // ctor
   constructor(data?: Partial<GameItem>) {
     super(data);
   }
