@@ -6,7 +6,7 @@ export class Item extends Entity {
   @property({
     type: 'string',
     id: true,
-    generated: false,
+    generated: true,
   })
   id?: string;
 
